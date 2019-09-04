@@ -8,6 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class Offer100ApplicationTests {
+    //项目启动类
 
     @Test
     public void contextLoads() {
