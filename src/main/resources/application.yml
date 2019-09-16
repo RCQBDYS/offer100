@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://47.102.147.246:3306/offerSpring?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: wxp1135...
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*/*.xml
+  type-aliases-package: com.edu.nchu.offer100.*.entity
+  configuration:
+    map-underscore-to-camel-case: true

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edu.nchu.offer100.login.mapper.LogInMapper">
+    <resultMap id="adminMap" type="com.edu.nchu.offer100.login.entities.Manager">
+        <id column="adminId" property="adminId"/>
+        <result column="adminName" property="adminName"/>
+        <result column="adminPassword" property="adminPassword"/>
+    </resultMap>
+    
+    <select id=""
+</mapper>
